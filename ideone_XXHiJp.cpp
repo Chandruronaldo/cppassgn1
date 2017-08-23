@@ -3,25 +3,25 @@ using namespace std;
 
 int main() {
 	int a;
-	cout<<"enter the data type of the variable";
+	cout<<"enter the data type of the variable 1. integer 2. float 3.character";
 	cin>>a;
 	switch(a)
 	{
 		case 1:int b;
-		cout<<"entr the value of the variable"<<b;
+		cout<<"enter the value of the variable";
 		cin>>b;
 		cout<<"the value of the integral variable is "<<b;
 		break;
 		       
 		case 2:float c;
-		cout<<"entr the value of the variable"<<c;
-		cin>>b;
+		cout<<"enter the value of the variable";
+		cin>>c;
 		cout<<"the value of the float variable is "<<c;
 		break;
 		
 		case 3:char d;
-		cout<<"entr the value of the variable"<<d;
-		cin>>b;
+		cout<<"enter the value of the variable";
+		cin>>d;
 		cout<<"the value of the character variable is "<<d;
 		break;
 		       
