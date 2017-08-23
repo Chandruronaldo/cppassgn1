@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int a;
-	cout<<"enter the data type of the variable 1. integer 2. float 3.character";
+	cout<<"enter the data type of the variable 1. integer 2. float 3.character 4.boolean";
 	cin>>a;
 	switch(a)
 	{
@@ -24,6 +24,12 @@ int main() {
 		cin>>d;
 		cout<<"the value of the character variable is "<<d;
 		break;
+			
+		case 4:bool e;
+		cout<<"enter the value of the variable";
+		cin>>e;
+		cout<<"the value of the boolean variable is "<<e;
+		break;	
 		       
 	}
 	// your code goes here
